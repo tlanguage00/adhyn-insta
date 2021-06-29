@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.big-box {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 50px;
+}
+
+.left-section {
+  width: 50%;
+}
+
+.left-section img {
+  width: 70%;
+  margin-left: 80px;
+}
+
+.right-section {
+  width: 50%;
+}
+
+.right-section img {
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 8px;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+
+.top {
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+button {
+  width: 80%;
+  height: 28px;
+  background-color: #b2dffc;
+  border: 0;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+hr {
+  width: 32%;
+  display: inline-block;
+  margin: 3px 0;
+}
+
+span {
+  margin: 0 15px;
+}
+
+.center {
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.center span {
+  color: #6276e9;
+  font-weight: bold;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.bottom img {
+  width: 40%;
+}
